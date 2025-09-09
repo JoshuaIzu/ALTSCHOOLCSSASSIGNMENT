@@ -98,8 +98,10 @@ img {
 @media screen and (max-width: 768px) {
   .profile{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
+    gap: 1rem;
+    padding:15px;
   }
   .avatar {
     margin: auto;
@@ -112,23 +114,19 @@ img {
   .grid-cell:last-child {
     border: 2px solid var(--color-sub);
   }
-  .card {
-  border: 2px solid var(--color-light);
-  display: grid;
-  grid-template-rows: 1fr 1fr; /* Two equal height rows */
-  height: 100vh; /* Or whatever total height you want */
-  width: 100vw; /* Center items vertically and horizontally */
-  border-radius: 10px;
-  box-sizing: border-box;
-}
+  
   .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     text-align: center;
   }
   body {
-    margin-right: 20px;
+    margin: 0;
     padding: 10px;
+  }
+  .aboutme {
+    margin: 20px;
+    font-size: medium;
   }
 
   
