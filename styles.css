@@ -101,7 +101,7 @@ img {
     grid-template-columns: 1fr;
     text-align: center;
     align-items: center;
-    gap: 2rem;
+    gap: 1rem;
     padding:20px;
   }
   .avatar {
@@ -126,7 +126,7 @@ img {
     padding: 10px;
   }
   .aboutme {
-    margin: 20px;
+    margin: 0px;
     font-size: medium;
   }
 
