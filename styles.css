@@ -100,13 +100,15 @@ img {
     display: grid;
     grid-template-columns: 1fr;
     text-align: center;
-    align-items: center;
+    justify-items: center;
     gap: 1rem;
+    padding: 20px;
   }
   .avatar {
     margin: auto;
     margin-top: 0;
     margin-bottom: 20px;
+    justify-self: center;
   }
   .grid-cell:first-child {
     border: 2px solid var(--color-sub);
@@ -125,7 +127,7 @@ img {
     padding: 10px;
   }
   .aboutme {
-    margin: 0px;
+    margin: 0 auto;
     font-size: medium;
   }
 
