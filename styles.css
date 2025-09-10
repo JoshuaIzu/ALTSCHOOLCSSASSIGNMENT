@@ -109,7 +109,7 @@ img {
   .avatar {
     width: 150px;
     heigth: 150px;
-    margin: 0px;
+    margin: 0;
     justify-self: center;
     
   }
