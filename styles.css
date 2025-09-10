@@ -102,12 +102,16 @@ img {
     text-align: center;
     justify-items: center;
     gap: 1rem;
+    max-width: 100vw;
     padding: 20px;
+    margin: 0 auto;
   }
   .avatar {
-    margin: 0 auto;
-    margin-bottom: 20px;
+    width: 150px;
+    heigth: 150px;
+    margin: 0px;
     justify-self: center;
+    
   }
   .grid-cell:first-child {
     border: 2px solid var(--color-sub);
@@ -124,10 +128,18 @@ img {
   body {
     margin: 0;
     padding: 10px;
+     overflow-x: hidden;
   }
   .aboutme {
-    margin: 0 auto;
+    margin: 0;
     font-size: medium;
+    width: 100%;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+    box-sizing: border-box;
+    padding: 0 10px;
   }
 
   
