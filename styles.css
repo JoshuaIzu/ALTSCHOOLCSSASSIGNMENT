@@ -109,7 +109,7 @@ img {
   .avatar {
     width: 150px;
     heigth: 150px;
-    margin: 0;
+    margin: 0px;
     justify-self: center;
     
   }
@@ -131,7 +131,7 @@ img {
      overflow-x: hidden;
   }
   .aboutme {
-    margin: 0;
+    margin: 0 auto;
     font-size: medium;
     width: 100%;
     max-width: 100%;
